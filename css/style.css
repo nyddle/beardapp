@@ -1,0 +1,90 @@
+::selection {
+	background: #C31919;
+	color:#ffffff;
+}
+
+::-moz-selection {
+	background: #C31919;
+	color:#ffffff;
+}
+
+body {
+	background: url(../img/bg.png);
+}
+
+.margin5 {
+	margin-top: 1%;
+}
+
+.margin-10 {
+	margin-bottom: 10%;
+}
+
+h1 {
+	font-family: 'nexabold', sans-serif;
+	color: #a0aab4;
+	font-size: 49px;
+	line-height: 44px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'freehand', sans-serif;
+	color: #a0aab4;
+	font-size: 52px;
+	line-height: 48px;
+	font-weight: normal;
+}
+
+.top {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footer a {
+	color:#A0AAB4;
+	margin: 0 8px;
+}
+
+.footer a:hover {
+	color: #525f66;
+	text-decoration: none;
+}
+
+img {
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+img:hover {
+	opacity: 0.8;
+}
+
+#audio {
+	display:none;
+}
+
+#audio-controls {
+	display:block;
+	position:fixed;
+	top:20px;
+	left:20px;
+	width:40px;
+	height:40px;
+	text-indent:-9999px;
+}
+
+.play {
+	background:url(../img/play.png) no-repeat;	
+}
+
+.pause {
+	background:url(../img/pause.png) no-repeat;	
+}
